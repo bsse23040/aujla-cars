@@ -1,0 +1,18 @@
+figure {
+  position: relative; /* Set the desired width */
+  height: 60px;
+  width: 50px;
+  object-fit: cover;
+}
+figure img{
+    object-fit: cover;
+    width: 50px;
+}
+
+figcaption {
+  position: absolute; /* Position the caption relative to the figure */
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  padding: 10px; /* Add some padding for readability */
+}
